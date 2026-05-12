@@ -1,0 +1,17 @@
+# Python
+gflux/venv/
+gflux/__pycache__/
+*.pyc
+gflux/.env
+
+# Node
+gflux-ui/node_modules/
+gflux-ui/.tanstack/
+gflux-ui/dist/
+
+# Mac junk
+__MACOSX/
+
+# OS
+.DS_Store
+Thumbs.db
