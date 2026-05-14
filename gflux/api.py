@@ -18,7 +18,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8080"],
+    allow_origins=["http://localhost:8080", "https://g-flux-ui.sneharangari9665.workers.dev"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
